@@ -1,0 +1,73 @@
+
+body{
+    background-image: url("../imgs/pexels-photo-5480787.jpeg");
+        background-position: center center;
+        background-size: 100% 100%;
+    min-height: 100dvh;
+}
+.home{
+    margin: 3rem auto;
+}
+form{
+    margin-block: 70px;
+    margin-inline: 10px;
+}
+form input[type="text"]{
+        width: 100%;
+            padding: 10px 40px 10px 10px;
+            background: #cddafd;
+            color: white;
+            border-radius: 10px;
+}
+form input:focus{
+    outline: none;
+}
+form input[type="button"]{
+position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+.row{
+    margin-inline: 10px;
+}
+
+span:not(.number){
+    margin-right: 1rem;
+}
+.degree{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:767px){
+    .degree{
+        flex-direction: column;
+    }
+}
+.num{
+    font-size: 4rem;
+    margin-right: 30px;
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+.max{
+    font-weight: 900;
+}
+.box{
+    
+    padding-block: 1rem;
+    border-radius: 10px;
+    background-color: #cddafd;
+    padding: 20px;
+}
+.box-header {
+    border-bottom: 1px solid #000;
+    background-color: #cddafd;
+}
+.box-body{
+    padding-block: 10px;
+}

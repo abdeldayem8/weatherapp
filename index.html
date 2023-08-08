@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="icon" href="./imgs/logo.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+      <form class="location position-relative">
+        <input type="text" placeholder="Find Your Location..."  id="search">
+        <input type="button" class="btn btn-outline-secondary" value="Find" id="submit">
+      </form>
+    </div>
+    <div class="container">
+    <div class="home">
+        
+            <div class="row g-4">
+                <div class=" col-lg-4">
+                    <div class="box">
+                    <div class="box-header d-flex justify-content-between">
+                    <p class="weakday"></p>
+                    <p ><span class="number"></span><span class="month"></span></p>
+                    </div>
+                    <div class="box-body" id="content">
+                    </div>
+                    <div class="d-flex my-2">
+                        <span ><i class="fa-solid fa-umbrella"></i> 20%</span>
+                        <span><i class="fa-solid fa-worm"></i> 18km/h</span>
+                        <span><i class="fa-solid fa-compass"></i> East</span>
+                    </div>
+                </div>
+                </div>
+                <div class=" col-lg-4">
+                   <div class="box">
+                    <div class="box-header text-center">
+                        <p class="dayTwo"></p>
+                    </div>
+                    <div class="box-body text-center" id="contentTwo">
+                    
+                    </div>
+                   </div>
+                </div>
+                <div class=" col-lg-4">
+                    <div class="box">
+                    <div class="box-header text-center">
+                        <p class="dayThree"></p>
+                    </div>
+                    <div class="box-body text-center" id="contenthree">
+                    
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+    </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
