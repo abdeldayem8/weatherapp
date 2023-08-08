@@ -2,7 +2,7 @@ var arrayWeather = [];
 
 async function getData(term) {
   var weather = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=2070ce4abcac4289a2c161128230608&q=${term}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=2070ce4abcac4289a2c161128230608&q=${term}&days=3`
   );
   arrayWeather = await weather.json();
 
